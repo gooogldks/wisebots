@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "wisebot"
+version = "0.1.0"
+description = ""
+authors = ["TemaDrakoshef <artem125149@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ujson = "^5.8.0"
+yarl = "^1.9.3"
+aiohttp = "^3.9.1"
+backoff = "^2.2.1"
+python-dotenv = "^1.0.0"
+fastapi = "^0.104.1"
+uvicorn = "^0.24.0.post1"
+gunicorn = "^21.2.0"
+aiogram = "^3.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
